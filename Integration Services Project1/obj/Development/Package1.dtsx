@@ -11,8 +11,8 @@
   DTS:LocaleID="17418"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="67"
-  DTS:VersionGUID="{91CA717A-231F-4B4F-B3C7-7A304CA72AE8}">
+  DTS:VersionBuild="71"
+  DTS:VersionGUID="{8840A65A-C5B8-478B-B563-850466217D13}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -25,7 +25,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="0"
           DTS:ConnectRetryInterval="0"
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\Users\User\Documents\GitHub\Desafio1_DMD_EduardoLopez\Fiorella_Data_Excel\Preferencias_Departamentales.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\Users\Eduardo Lopez\Documents\GitHub\desafio1_DMD_EduardoLopez\Fiorella_Data_Excel\Preferencias_Departamentales.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -37,7 +37,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="0"
           DTS:ConnectRetryInterval="0"
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\Users\User\Documents\GitHub\Desafio1_DMD_EduardoLopez\Fiorella_Data_Excel\Preferencia_Nacional.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\Users\Eduardo Lopez\Documents\GitHub\desafio1_DMD_EduardoLopez\Fiorella_Data_Excel\Preferencia_Nacional.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -47,7 +47,12 @@
       DTS:ObjectName="localhost.Fiorella">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=localhost;Initial Catalog=Fiorella;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;" />
+          DTS:ConnectionString="Data Source=.,11433;User ID=sa;Initial Catalog=Fiorella;Provider=MSOLEDBSQL.1;Persist Security Info=True;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeNSRULN4BkesjEyTQrqYwAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACsTLpnr3SuZGpu4grjNeuFJ/x0HGyg9t5pQpRMRn+h/QAAAAAOgAAAAAIAACAAAADE1i8hCjSiAi2kaLCZ5S7xRlUiuTtTLaBm2UwHo9DdNCAAAAD8cyhBAV2z/db2rkOnMNyBIulSqHl+yW+xVZ3be4B+QUAAAACeq+qqNUkd6im1jskjInxBuRW/TDxs22DaRJ1bDrpBsysxoo6ban+Cq0/RzeWY6iHGF42Ngi7Shj847F1GSkrP</DTS:Password>
+        </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -64,7 +69,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\User\Documents\GitHub\Desafio1_DMD_EduardoLopez\Fiorella_Data_CSV\SanMiguel_j20191007.csv">
+          DTS:ConnectionString="C:\Users\Eduardo Lopez\Documents\GitHub\desafio1_DMD_EduardoLopez\Fiorella_Data_CSV\SanMiguel_j20191007.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -73,105 +78,105 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="id"
-              DTS:DTSID="{624FB82D-87EC-4F30-8ACC-688454666C07}"
+              DTS:DTSID="{8D3B2C90-9C05-4CCC-B633-36AB7E40F6D8}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Rosas"
-              DTS:DTSID="{A0484BFE-01B8-404C-957E-1ADC2D3ECB00}"
+              DTS:DTSID="{E37F7E6A-985A-41B8-966D-6774FEC8530E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Claveles"
-              DTS:DTSID="{1DAF702A-10AD-470B-B54E-65F78427D060}"
+              DTS:DTSID="{7FF892E2-69AB-493F-9C4E-F9EB26D8C4B0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Macetas"
-              DTS:DTSID="{93221FB3-AF70-4B8B-904E-6BC958196289}"
+              DTS:DTSID="{837859B1-39FF-4604-AFFC-3474C0F43C47}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Tierra"
-              DTS:DTSID="{8F4F9EA3-BA06-4350-95FC-4E65B6517284}"
+              DTS:DTSID="{FECC9D46-51A8-4171-BB95-C1E90E5A445A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Girasoles"
-              DTS:DTSID="{E3054372-FD61-403C-AA56-3F171ED331EB}"
+              DTS:DTSID="{2751248E-CC04-4433-AF54-9F41E86CA3BA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Hortensia"
-              DTS:DTSID="{67F894D0-F2C3-4C04-8D8C-D095F92A5171}"
+              DTS:DTSID="{C644C897-7B77-44E6-AF2C-85AE1C879C94}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Globos"
-              DTS:DTSID="{03E1D304-3A05-4E36-AAA2-5363C6B78201}"
+              DTS:DTSID="{71BE88F5-FE32-4799-BF7B-A31BE83E530B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Tarjetas"
-              DTS:DTSID="{ADD48922-9EE1-46FD-A21E-2F3D714B91DD}"
+              DTS:DTSID="{92B7A959-7A61-4139-8449-B890D3F81447}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Orquideas"
-              DTS:DTSID="{970F4E6C-A7B4-40A4-975E-BA0F06555080}"
+              DTS:DTSID="{06E19104-9BFF-479A-BD78-57EA4DFE2F56}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Carmesi"
-              DTS:DTSID="{FDFE04A2-DDC6-45AB-B0E2-341E52A85BC0}"
+              DTS:DTSID="{C91A2844-B913-4A0F-96B2-42A10ED30614}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Lirios"
-              DTS:DTSID="{FD92CFF6-DDEB-4A56-BCDA-2FA35F9CD008}"
+              DTS:DTSID="{C9BF9927-B356-4FB8-9F48-041D5C117415}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Aurora"
-              DTS:DTSID="{C873D721-7319-40B4-9DDE-65B7CE5C3F1C}"
+              DTS:DTSID="{50BC9880-0FB2-467A-A5EE-8A65FF3E985D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Tulipanes"
-              DTS:DTSID="{150AA512-3E02-4943-8587-9ACD17F04088}"
+              DTS:DTSID="{B37CF921-0589-4D51-B353-2314A1ED988B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x000A_"
               DTS:DataType="11"
               DTS:ObjectName="Liston"
-              DTS:DTSID="{4DB3CEBF-36A1-4232-A9DA-CDFD5A47A6F5}"
+              DTS:DTSID="{C9EA5749-27F3-42EA-B789-BE1CE7C1F93B}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -191,7 +196,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\User\Documents\GitHub\Desafio1_DMD_EduardoLopez\Fiorella_Data_CSV\SanSalvador_i20191007.csv">
+          DTS:ConnectionString="C:\Users\Eduardo Lopez\Documents\GitHub\desafio1_DMD_EduardoLopez\Fiorella_Data_CSV\SanSalvador_i20191007.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -200,105 +205,105 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="id"
-              DTS:DTSID="{8ED885F2-1485-4395-B0A3-BAFC3F29C7D4}"
+              DTS:DTSID="{AEE1ED9E-44EE-45F6-BC35-37B3C347CDE6}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Rosas"
-              DTS:DTSID="{D9EB355E-33CC-4493-BB5E-5598F1CAF405}"
+              DTS:DTSID="{E79B5B02-8DC8-431C-ABEA-C36191AD83BA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Claveles"
-              DTS:DTSID="{DC7F0A83-FB04-4C15-B16D-76805BEF651F}"
+              DTS:DTSID="{542812FE-C913-4846-9DCD-4B17214F6172}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Macetas"
-              DTS:DTSID="{04ECBC4A-044D-466A-B8E4-C8C26DF1DD52}"
+              DTS:DTSID="{41F2EB2F-F2F3-4741-AE1B-64FC9F1E0003}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Tierra"
-              DTS:DTSID="{CE78F8CA-1BF7-4573-A92E-1ACBFA4D7102}"
+              DTS:DTSID="{6844EEA0-5847-4956-BA77-84C7B7D996F7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Girasoles"
-              DTS:DTSID="{01163017-7898-4764-8282-CCF4C7AF7C27}"
+              DTS:DTSID="{08A40FEE-7FF9-4123-A1B4-BA85C2663EF3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Hortensia"
-              DTS:DTSID="{F1E075A9-4C7A-4126-9D99-31C48B901C59}"
+              DTS:DTSID="{8A33B7A3-77C5-4953-8DC2-AB34BB9D3329}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Globos"
-              DTS:DTSID="{8F68C444-5040-4929-83EB-317DFEE16436}"
+              DTS:DTSID="{616940F5-4EB1-45C2-A315-DABC7DB6F30A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Tarjetas"
-              DTS:DTSID="{C0EE6BFA-5E4C-47B4-91EE-0BE95F0A2591}"
+              DTS:DTSID="{A07CA12F-A7B4-47C2-BEB0-A2489528DE69}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Orquideas"
-              DTS:DTSID="{369291B4-8659-4EF0-A86E-8C886A9A710A}"
+              DTS:DTSID="{B52B1594-8276-440E-AA08-C27B20A6DA43}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Carmesi"
-              DTS:DTSID="{68D742DB-CF14-4CDE-9509-26E3F5A9EFCA}"
+              DTS:DTSID="{9C7621BD-06A4-463F-AFF2-B955CEF527E2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Lirios"
-              DTS:DTSID="{897ECD2C-1E63-482C-8965-617E474B48FD}"
+              DTS:DTSID="{BA4497BA-7044-4D99-9AA9-5D19AF6BCDA3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Aurora"
-              DTS:DTSID="{7AE2C722-D413-4E13-B82C-CA2277FE6824}"
+              DTS:DTSID="{626E4D80-EAC1-4D8C-992E-D6BE4C9C1B79}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Tulipanes"
-              DTS:DTSID="{E7C45AA4-B83F-4B50-818E-0AE903FE0284}"
+              DTS:DTSID="{4B49AB40-4EA4-45A3-833E-F66B90AD58B4}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x000A_"
               DTS:DataType="11"
               DTS:ObjectName="Liston"
-              DTS:DTSID="{608ACABE-26D5-47E0-B963-27131BD45097}"
+              DTS:DTSID="{3B589D2B-2EF2-4D81-889B-7DDE4B39C839}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -318,7 +323,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\User\Documents\GitHub\Desafio1_DMD_EduardoLopez\Fiorella_Data_CSV\SantaAna_c20191007.csv">
+          DTS:ConnectionString="C:\Users\Eduardo Lopez\Documents\GitHub\desafio1_DMD_EduardoLopez\Fiorella_Data_CSV\SantaAna_c20191007.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -327,105 +332,105 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="id"
-              DTS:DTSID="{1103B4FD-FF79-4907-910F-E8B4CE8262D4}"
+              DTS:DTSID="{A5386E9C-9366-4876-A831-BD8F443E128E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Rosas"
-              DTS:DTSID="{3C31013C-1CD6-4CF3-B0B0-6CBAA2C2B836}"
+              DTS:DTSID="{33609BCC-57AC-413A-AE2A-DCC76282FC09}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Claveles"
-              DTS:DTSID="{715ACB16-43B1-46E4-88FF-909A28EE035F}"
+              DTS:DTSID="{5678EFBF-5648-47D6-B7C5-2F0931F440C1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Macetas"
-              DTS:DTSID="{2528BD4B-62ED-434D-8E4A-B0FB9F64C2D1}"
+              DTS:DTSID="{399469EE-172B-420B-B64B-2CB900C46677}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Tierra"
-              DTS:DTSID="{ACEED22A-360D-4295-951C-EB82F22C9391}"
+              DTS:DTSID="{4FF91048-7387-4971-94E8-82971A0284A2}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Girasoles"
-              DTS:DTSID="{AF7E28A9-773D-4E4A-BDAA-A470D6C7E4F7}"
+              DTS:DTSID="{016C9BAE-1B13-4A68-9627-2BB93899DE80}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Hortensia"
-              DTS:DTSID="{1B53B3DC-4F5D-4563-9239-78807A3BFBE1}"
+              DTS:DTSID="{E68DB314-88A9-43D4-BA70-5E6282A439FC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Globos"
-              DTS:DTSID="{AF753C8D-C5ED-49C2-A41B-6A26A45BD5DD}"
+              DTS:DTSID="{C43EF232-CE84-422F-A957-BB6F667FF6F0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Tarjetas"
-              DTS:DTSID="{2EE571F0-1E3A-4CC0-9645-9247027245E8}"
+              DTS:DTSID="{A7AF60DC-5045-4AE8-A5CE-908E4A182C97}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Orquideas"
-              DTS:DTSID="{BB142754-3071-4714-ADA4-3302EF39C86B}"
+              DTS:DTSID="{9162013C-4099-49F0-96DF-6D092A983A16}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Carmesi"
-              DTS:DTSID="{A410323B-3B56-4AD4-BD9F-BBBCB277641B}"
+              DTS:DTSID="{116727DF-A8EB-4319-8D31-CEDC3DD4D8D0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Lirios"
-              DTS:DTSID="{2E1136EE-63EF-41CB-A038-BB35AD189A8A}"
+              DTS:DTSID="{22CE9A65-07AE-46C8-B1D4-4AE7E49061C7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Aurora"
-              DTS:DTSID="{D72E1111-834F-4047-871A-429F4E533337}"
+              DTS:DTSID="{39D833AE-C9CD-4F31-8203-D2A17FB7DF00}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x002C_"
               DTS:DataType="11"
               DTS:ObjectName="Tulipanes"
-              DTS:DTSID="{59543F0C-604A-440D-A9D4-2FC77239C75C}"
+              DTS:DTSID="{2F5E6F40-E736-4FFF-A545-DCB4C9E1C5AD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
               DTS:ColumnDelimiter="_x000A_"
               DTS:DataType="11"
               DTS:ObjectName="Liston"
-              DTS:DTSID="{F43C2FA8-F0EE-4812-821B-CA0783EAFF21}"
+              DTS:DTSID="{C9F7FB61-3473-48C8-A971-FA31FA6FB94D}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -2846,7 +2851,7 @@
                   description="Nombre de la tabla de la base de datos de destino."
                   expressionType="Notify"
                   name="TableOrViewName"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">[Destino de ADO NET]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">[VentasFiorella]</property>
                 <property
                   dataType="System.Int32"
                   description="Especifique el número de filas por lote. El valor predeterminado es 0, que utiliza el mismo tamaño que el búfer interno de SSIS. "
@@ -6985,12 +6990,12 @@
     </DTS:Executable>
   </DTS:Executables>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
-<!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
-<!--Si edita manualmente esta sección y comete un error, puede eliminarlo. -->
-<!--El paquete podrá cargarse normalmente, pero se perderá la información de diseño anterior y el diseñador reorganizará los elementos automáticamente en la superficie de diseño.-->
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
 <Objects
   Version="8">
-  <!--Cada uno de los nodos siguientes contiene propiedades que no afectan al comportamiento en tiempo de ejecución.-->
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
   <Package
     design-time-name="Package">
     <LayoutInfo>
@@ -7013,133 +7018,83 @@
           Id="Package\Data Flow Task\San Miguel"
           TopLeft="391.5,54.5" />
         <NodeLayout
-          Size="154,42"
-          Id="Package\Data Flow Task\Derived Column"
-          TopLeft="396.5,171.5" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Flat File Source Output]"
-          TopLeft="470.25,96.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,75"
-              Start="0,0"
-              End="0,67.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,67.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="206,42"
-          Id="Package\Data Flow Task\Aggregate por departamento"
-          TopLeft="472.5,451.5" />
-        <NodeLayout
           Size="115,42"
-          Id="Package\Data Flow Task\Unpivot"
-          TopLeft="563.5,534.5" />
+          Id="Package\Data Flow Task\Unpivot 1"
+          TopLeft="820,540" />
+        <NodeLayout
+          Size="305,42"
+          Id="Package\Data Flow Task\Preferencias_Departamentales"
+          TopLeft="377.5,734.5" />
         <NodeLayout
           Size="151,42"
           Id="Package\Data Flow Task\San Salvador"
           TopLeft="651,57" />
         <NodeLayout
-          Size="154,42"
-          Id="Package\Data Flow Task\Derived Column 1"
-          TopLeft="650,173" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Flat File Source Output1]"
-          TopLeft="726.75,99">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,74"
-              Start="0,0"
-              End="0,66.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,66.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          Size="163,42"
+          Id="Package\Data Flow Task\Derived Column 2"
+          TopLeft="914,166" />
         <NodeLayout
-          Size="121,42"
-          Id="Package\Data Flow Task\Union All"
-          TopLeft="672.5,288.5" />
+          Size="120,42"
+          Id="Package\Data Flow Task\Multicast"
+          TopLeft="665.5,359.5" />
         <NodeLayout
           Size="151,42"
           Id="Package\Data Flow Task\Santa Ana"
           TopLeft="923.5,53.5" />
         <NodeLayout
-          Size="163,42"
-          Id="Package\Data Flow Task\Derived Column 2"
-          TopLeft="914,166" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Flat File Source Output2]"
-          TopLeft="997.25,95.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,70.5"
-              Start="0,0"
-              End="0,63">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,63" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          Size="206,42"
+          Id="Package\Data Flow Task\Aggregate por departamento"
+          TopLeft="472.5,451.5" />
+        <NodeLayout
+          Size="176,42"
+          Id="Package\Data Flow Task\Destino de ADO NET"
+          TopLeft="982.5,351.5" />
+        <NodeLayout
+          Size="121,42"
+          Id="Package\Data Flow Task\Union All"
+          TopLeft="672.5,288.5" />
+        <NodeLayout
+          Size="210,42"
+          Id="Package\Data Flow Task\Preferencia_Nacional"
+          TopLeft="815.5,730.5" />
+        <NodeLayout
+          Size="115,42"
+          Id="Package\Data Flow Task\Unpivot"
+          TopLeft="563.5,534.5" />
+        <NodeLayout
+          Size="154,42"
+          Id="Package\Data Flow Task\Derived Column 1"
+          TopLeft="650,173" />
+        <NodeLayout
+          Size="154,42"
+          Id="Package\Data Flow Task\Derived Column"
+          TopLeft="396.5,171.5" />
+        <NodeLayout
+          Size="98,42"
+          Id="Package\Data Flow Task\Sort 1"
+          TopLeft="831.5,610.5" />
+        <NodeLayout
+          Size="203,42"
+          Id="Package\Data Flow Task\Aggregate a nivel nacional"
+          TopLeft="769,449" />
         <NodeLayout
           Size="98,42"
           Id="Package\Data Flow Task\Sort"
           TopLeft="570.5,615.5" />
         <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Aggregate Output 1]"
-          TopLeft="575.5,493.5">
+          Id="Package\Data Flow Task.Paths[Unpivot Output1]"
+          TopLeft="879,582">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="45.5,41"
+              EndConnector="0,28.5"
               Start="0,0"
-              End="45.5,33.5">
+              End="0,21">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,16.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,16.5"
-                    Point2="0,20.5"
-                    Point3="4,20.5" />
-                  <mssgle:LineSegment
-                    End="41.5,20.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="41.5,20.5"
-                    Point2="45.5,20.5"
-                    Point3="45.5,24.5" />
-                  <mssgle:LineSegment
-                    End="45.5,33.5" />
+                    End="0,21" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7162,6 +7117,320 @@
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,31.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Union All Output 1]"
+          TopLeft="729.25,330.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,29"
+              Start="0,0"
+              End="0,21.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Sort Output1]"
+          TopLeft="880.5,652.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="40,78"
+              Start="0,0"
+              End="40,70.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,35" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,35"
+                    Point2="0,39"
+                    Point3="4,39" />
+                  <mssgle:LineSegment
+                    End="36,39" />
+                  <mssgle:CubicBezierSegment
+                    Point1="36,39"
+                    Point2="40,39"
+                    Point3="40,43" />
+                  <mssgle:LineSegment
+                    End="40,70.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Sort Output]"
+          TopLeft="619.5,657.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-89.5,77"
+              Start="0,0"
+              End="-89.5,69.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,34.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,34.5"
+                    Point2="0,38.5"
+                    Point3="-4,38.5" />
+                  <mssgle:LineSegment
+                    End="-85.5,38.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-85.5,38.5"
+                    Point2="-89.5,38.5"
+                    Point3="-89.5,42.5" />
+                  <mssgle:LineSegment
+                    End="-89.5,69.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Multicast Output 4]"
+          TopLeft="785.5,380.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="197,-8"
+              Start="0,0"
+              End="189.5,-8">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="94.5,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="94.5,0"
+                    Point2="98.5,0"
+                    Point3="98.5,-4" />
+                  <mssgle:LineSegment
+                    End="98.5,-4" />
+                  <mssgle:CubicBezierSegment
+                    Point1="98.5,-4"
+                    Point2="98.5,-8"
+                    Point3="102.5,-8" />
+                  <mssgle:LineSegment
+                    End="189.5,-8" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Multicast Output 2]"
+          TopLeft="706.833333333333,401.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-131.333333333333,50"
+              Start="0,0"
+              End="-131.333333333333,42.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.3947368421053" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.3947368421053"
+                    Point2="0,20.3947368421053"
+                    Point3="-4,20.3947368421053" />
+                  <mssgle:LineSegment
+                    End="-127.333333333333,20.3947368421053" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-127.333333333333,20.3947368421053"
+                    Point2="-131.333333333333,20.3947368421053"
+                    Point3="-131.333333333333,24.3947368421053" />
+                  <mssgle:LineSegment
+                    End="-131.333333333333,42.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Multicast Output 1]"
+          TopLeft="744.166666666667,401.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="126.333333333333,47.5"
+              Start="0,0"
+              End="126.333333333333,40">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,15.375" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,15.375"
+                    Point2="0,19.375"
+                    Point3="4,19.375" />
+                  <mssgle:LineSegment
+                    End="122.333333333333,19.375" />
+                  <mssgle:CubicBezierSegment
+                    Point1="122.333333333333,19.375"
+                    Point2="126.333333333333,19.375"
+                    Point3="126.333333333333,23.375" />
+                  <mssgle:LineSegment
+                    End="126.333333333333,40" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Flat File Source Output2]"
+          TopLeft="997.25,95.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,70.5"
+              Start="0,0"
+              End="0,63">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,63" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Flat File Source Output1]"
+          TopLeft="726.75,99">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,74"
+              Start="0,0"
+              End="0,66.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,66.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Flat File Source Output]"
+          TopLeft="470.25,96.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,75"
+              Start="0,0"
+              End="0,67.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,67.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Derived Column Output2]"
+          TopLeft="995.5,208">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-234.25,80.5"
+              Start="0,0"
+              End="-234.25,73">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,48.5094339622642" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,48.5094339622642"
+                    Point2="0,52.5094339622642"
+                    Point3="-4,52.5094339622642" />
+                  <mssgle:LineSegment
+                    End="-230.25,52.5094339622642" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-230.25,52.5094339622642"
+                    Point2="-234.25,52.5094339622642"
+                    Point3="-234.25,56.5094339622642" />
+                  <mssgle:LineSegment
+                    End="-234.25,73" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Derived Column Output1]"
+          TopLeft="730,215">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,73.5"
+              Start="0,0"
+              End="0,66">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,66" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7205,164 +7474,6 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Derived Column Output1]"
-          TopLeft="730,215">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,73.5"
-              Start="0,0"
-              End="0,66">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,66" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Derived Column Output2]"
-          TopLeft="995.5,208">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-234.25,80.5"
-              Start="0,0"
-              End="-234.25,73">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,48.5094339622642" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,48.5094339622642"
-                    Point2="0,52.5094339622642"
-                    Point3="-4,52.5094339622642" />
-                  <mssgle:LineSegment
-                    End="-230.25,52.5094339622642" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-230.25,52.5094339622642"
-                    Point2="-234.25,52.5094339622642"
-                    Point3="-234.25,56.5094339622642" />
-                  <mssgle:LineSegment
-                    End="-234.25,73" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="120,42"
-          Id="Package\Data Flow Task\Multicast"
-          TopLeft="665.5,359.5" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Union All Output 1]"
-          TopLeft="729.25,330.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,29"
-              Start="0,0"
-              End="0,21.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,21.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Multicast Output 2]"
-          TopLeft="706.833333333333,401.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-131.333333333333,50"
-              Start="0,0"
-              End="-131.333333333333,42.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,16.3947368421053" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,16.3947368421053"
-                    Point2="0,20.3947368421053"
-                    Point3="-4,20.3947368421053" />
-                  <mssgle:LineSegment
-                    End="-127.333333333333,20.3947368421053" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-127.333333333333,20.3947368421053"
-                    Point2="-131.333333333333,20.3947368421053"
-                    Point3="-131.333333333333,24.3947368421053" />
-                  <mssgle:LineSegment
-                    End="-131.333333333333,42.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="203,42"
-          Id="Package\Data Flow Task\Aggregate a nivel nacional"
-          TopLeft="769,449" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Multicast Output 1]"
-          TopLeft="744.166666666667,401.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="126.333333333333,47.5"
-              Start="0,0"
-              End="126.333333333333,40">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,15.375" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,15.375"
-                    Point2="0,19.375"
-                    Point3="4,19.375" />
-                  <mssgle:LineSegment
-                    End="122.333333333333,19.375" />
-                  <mssgle:CubicBezierSegment
-                    Point1="122.333333333333,19.375"
-                    Point2="126.333333333333,19.375"
-                    Point3="126.333333333333,23.375" />
-                  <mssgle:LineSegment
-                    End="126.333333333333,40" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="115,42"
-          Id="Package\Data Flow Task\Unpivot 1"
-          TopLeft="820,540" />
-        <EdgeLayout
           Id="Package\Data Flow Task.Paths[Aggregate Output 11]"
           TopLeft="874,491">
           <EdgeLayout.Curve>
@@ -7384,138 +7495,32 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="98,42"
-          Id="Package\Data Flow Task\Sort 1"
-          TopLeft="831.5,610.5" />
         <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Unpivot Output1]"
-          TopLeft="879,582">
+          Id="Package\Data Flow Task.Paths[Aggregate Output 1]"
+          TopLeft="575.5,493.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,28.5"
+              EndConnector="45.5,41"
               Start="0,0"
-              End="0,21">
+              End="45.5,33.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,21" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="305,42"
-          Id="Package\Data Flow Task\Preferencias_Departamentales"
-          TopLeft="377.5,734.5" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Sort Output]"
-          TopLeft="619.5,657.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-89.5,77"
-              Start="0,0"
-              End="-89.5,69.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,34.5" />
+                    End="0,16.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,34.5"
-                    Point2="0,38.5"
-                    Point3="-4,38.5" />
+                    Point1="0,16.5"
+                    Point2="0,20.5"
+                    Point3="4,20.5" />
                   <mssgle:LineSegment
-                    End="-85.5,38.5" />
+                    End="41.5,20.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="-85.5,38.5"
-                    Point2="-89.5,38.5"
-                    Point3="-89.5,42.5" />
+                    Point1="41.5,20.5"
+                    Point2="45.5,20.5"
+                    Point3="45.5,24.5" />
                   <mssgle:LineSegment
-                    End="-89.5,69.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="210,42"
-          Id="Package\Data Flow Task\Preferencia_Nacional"
-          TopLeft="815.5,730.5" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Sort Output1]"
-          TopLeft="880.5,652.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="40,78"
-              Start="0,0"
-              End="40,70.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,35" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,35"
-                    Point2="0,39"
-                    Point3="4,39" />
-                  <mssgle:LineSegment
-                    End="36,39" />
-                  <mssgle:CubicBezierSegment
-                    Point1="36,39"
-                    Point2="40,39"
-                    Point3="40,43" />
-                  <mssgle:LineSegment
-                    End="40,70.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="176,42"
-          Id="Package\Data Flow Task\Destino de ADO NET"
-          TopLeft="982.5,351.5" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Multicast Output 4]"
-          TopLeft="785.5,380.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="197,-8"
-              Start="0,0"
-              End="189.5,-8">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="94.5,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="94.5,0"
-                    Point2="98.5,0"
-                    Point3="98.5,-4" />
-                  <mssgle:LineSegment
-                    End="98.5,-4" />
-                  <mssgle:CubicBezierSegment
-                    Point1="98.5,-4"
-                    Point2="98.5,-8"
-                    Point3="102.5,-8" />
-                  <mssgle:LineSegment
-                    End="189.5,-8" />
+                    End="45.5,33.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7541,6 +7546,14 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task\Destino de ADO NET">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\Data Flow Task\Preferencia_Nacional">
     <Properties>
       <Property>
@@ -7550,14 +7563,6 @@
         <Name>TableInfoObjectType</Name>
         <Value
           type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\Destino de ADO NET">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>

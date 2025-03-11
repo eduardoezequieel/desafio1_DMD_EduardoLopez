@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Administrador de conexiones con Excel"
+  DTS:DTSID="{86F0BC0D-90D0-4EE6-84AE-6150560D7BD2}"
+  DTS:CreationName="EXCEL">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="0"
+      DTS:ConnectRetryInterval="0"
+      DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\Users\User\Documents\GitHub\Desafio1_DMD_EduardoLopez\Fiorella_Data_Excel\Ventas_Departamentales.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
