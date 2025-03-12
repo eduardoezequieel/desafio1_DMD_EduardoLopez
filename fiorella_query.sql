@@ -139,10 +139,5 @@ GROUP BY P1.Producto, P2.Producto
 ORDER BY CantidadCompras DESC;
 
 
-SELECT * FROM Combinaciones_Productos_Departamento ORDER BY Departamento, CantidadCompras DESC;
-
-SELECT * FROM Combinaciones_Productos_Pais ORDER BY CantidadCompras DESC;
-
-
 
 
