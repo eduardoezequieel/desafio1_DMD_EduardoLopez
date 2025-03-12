@@ -11,8 +11,8 @@
   DTS:LocaleID="17418"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="85"
-  DTS:VersionGUID="{2806E2D7-EC7C-4A78-8A47-843450DA6817}">
+  DTS:VersionBuild="102"
+  DTS:VersionGUID="{D5B38C5B-BBF5-4622-ACE3-E601A1793705}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,27 +29,49 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeNSRULN4BkesjEyTQrqYwAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACywo3o+3bRT7NnXsWOwgxUvYUrLLAsf7Ey8luB6V19pQAAAAAOgAAAAAIAACAAAAC5/ykUtNW0J5XJN4rd7F4a4aUFIp+qAj2Sp8+uf8EShSAAAAAbFZ30SRD1tPqC2Jy7Vnk4ud/J9v7VNAQ2oYoFuFha10AAAAAqrqBncyHgc6ZEQYZ0XN4TZEhlpSbnCVqFpQwIGWvuHL3Nc3gFqJlVQNFhlU+X58rSdl7/xteWRxsY+4svy271</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeNSRULN4BkesjEyTQrqYwAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABUuGpnQ1rALNGpDIqLtjtEEeDljnVq4XDo8/BYvISnCAAAAAAOgAAAAAIAACAAAABToJfsl2E3ET96QbDTSDl6M3xCirCUdhlAUVYMK1ZzQyAAAAD80FznwLt6KyRlMkHYkjnRInW7hIQa8HLOXHcSsOwSq0AAAABkcL1JheHRXo4WERdPj8hAK+B3dciIXMp4nCvlnxKoWdjomQ7LtTRT0+PevLgfzgaGf7nUi5rdW7jYFvZxNLP/</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Administrador de conexiones con Excel]"
-      DTS:CreationName="EXCEL"
-      DTS:DTSID="{8815A734-75AF-438A-BBFC-B9B81C17A064}"
-      DTS:ObjectName="Administrador de conexiones con Excel">
+      DTS:refId="Package.ConnectionManagers[.,11433.Fiorella.sa 1]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{8461D25B-8CC6-4396-9056-747D1325BD88}"
+      DTS:ObjectName=".,11433.Fiorella.sa 1">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectRetryCount="0"
-          DTS:ConnectRetryInterval="0"
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\Users\Eduardo Lopez\Documents\GitHub\desafio1_DMD_EduardoLopez\Fiorella_Data_Excel\Preferencias_Departamentales.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=.,11433;User ID=sa;Initial Catalog=Fiorella;Provider=MSOLEDBSQL.1;Application Name=SSIS-Package1-{8461D25B-8CC6-4396-9056-747D1325BD88}.,11433.Fiorella.sa 1;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeNSRULN4BkesjEyTQrqYwAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACQxM0MVHz4A3EwoGD7wuFlq8PNcimezR0QH4afHFSmTAAAAAAOgAAAAAIAACAAAACKTsfb0U4/VBvja0OpHzG/JlNxAexwRpjOussyYbFcfCAAAAASlo3KZl2T8FpYm+HW6Yf2u70wM6NsXTeZdc/zBSUPxUAAAABCKYOqpnqxtmZyqqzHyVQrfsJtHdpHZivqEZmELygUU3DXPafpWZIxVBDYEvH1NAl41tufWZgurK23W8prRbSw</DTS:Password>
+        </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Administrador de conexiones con Excel 1]"
+      DTS:refId="Package.ConnectionManagers[.,11433.Fiorella.sa1]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{8944713A-82AB-4885-917F-411AA1B64BEB}"
+      DTS:ObjectName=".,11433.Fiorella.sa1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=.,11433;User ID=sa;Initial Catalog=Fiorella;Provider=MSOLEDBSQL.1;Persist Security Info=True;Application Name=SSIS-Package1-{8944713A-82AB-4885-917F-411AA1B64BEB}.,11433.Fiorella.sa1;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeNSRULN4BkesjEyTQrqYwAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAy4mE2ffcI6DEECMNJ8G0cGWsRhlsXgWOCNzlHSYogyQAAAAAOgAAAAAIAACAAAACeB9W+Zxc2jqDbtqbbZ6TtMKOnOMx91/+xk/t5ldsc/SAAAACIq3dN2FIXO+pgIwP7ku4qcRzR8Bq5KhrJAJXV5tGhr0AAAACGebv0Zx7Fe75gr52p9KC2wo/VZyaYQLHWBH+CszKemHEx+7qcSD0QVd2vDh7qHZAg7a7V71UcQhBKnQTerMi3</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[PreferenciaNacionalExcelConnection]"
       DTS:CreationName="EXCEL"
       DTS:DTSID="{547FF083-9AE8-40D2-AEF3-DAEEEA33A9B7}"
-      DTS:ObjectName="Administrador de conexiones con Excel 1">
+      DTS:ObjectName="PreferenciaNacionalExcelConnection">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="0"
@@ -58,42 +80,15 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Excel Connection Manager]"
+      DTS:refId="Package.ConnectionManagers[PreferenciasDepartamentalesExcelConnection]"
       DTS:CreationName="EXCEL"
-      DTS:DTSID="{1473F1A0-C251-4F5A-A4EF-E1E96144A89C}"
-      DTS:ObjectName="Excel Connection Manager">
+      DTS:DTSID="{8815A734-75AF-438A-BBFC-B9B81C17A064}"
+      DTS:ObjectName="PreferenciasDepartamentalesExcelConnection">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="0"
           DTS:ConnectRetryInterval="0"
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\Users\Eduardo Lopez\Documents\GitHub\desafio1_DMD_EduardoLopez\Fiorella_Data_Excel\Ventas_Departamentales.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Excel Connection Manager 1]"
-      DTS:CreationName="EXCEL"
-      DTS:DTSID="{AAF3CCFC-99CD-4E2B-BE16-F803FA2259CD}"
-      DTS:ObjectName="Excel Connection Manager 1">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="0"
-          DTS:ConnectRetryInterval="0"
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\Users\Eduardo Lopez\Documents\GitHub\desafio1_DMD_EduardoLopez\Fiorella_Data_Excel\Ventas_Nacional.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[localhost.Fiorella]"
-      DTS:CreationName="ADO.NET:System.Data.OleDb.OleDbConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
-      DTS:DTSID="{86DD01E8-A7E2-4EA1-A990-C790429E287D}"
-      DTS:ObjectName="localhost.Fiorella">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=.,11433;User ID=sa;Initial Catalog=Fiorella;Provider=MSOLEDBSQL.1;Persist Security Info=True;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAeNSRULN4BkesjEyTQrqYwAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADwUjyebUzX/rANNLlr02MWPnH8mUqVQ/UTgTDJ2UXj6AAAAAAOgAAAAAIAACAAAACUA+9Z1Xt8kUPwrNoi258oQ7csIoZWt1juZXNuSojUQiAAAABxLh5/BEkvNvyTrjGlkwJ4rq7QsHxeBnvnxOnrcBVJjUAAAAA5LEmzDebGSFF787Wb/z2WlnCXpuc6XrNAogo0hJIR6g5V+irw+M9wpcn2m2+0Rzcu/T4HTrPoOsQTlWfE/zjP</DTS:Password>
-        </DTS:ConnectionManager>
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\Users\Eduardo Lopez\Documents\GitHub\desafio1_DMD_EduardoLopez\Fiorella_Data_Excel\Preferencias_Departamentales.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -477,6 +472,30 @@
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[VentasDepartamentalesExcelConnection]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{1473F1A0-C251-4F5A-A4EF-E1E96144A89C}"
+      DTS:ObjectName="VentasDepartamentalesExcelConnection">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="0"
+          DTS:ConnectRetryInterval="0"
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\Users\Eduardo Lopez\Documents\GitHub\desafio1_DMD_EduardoLopez\Fiorella_Data_Excel\Ventas_Departamentales.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[VentasNacionalExcelConnection]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{B3CAA1F9-115E-4B8B-A040-66E9C376257E}"
+      DTS:ObjectName="VentasNacionalExcelConnection">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="0"
+          DTS:ConnectRetryInterval="0"
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\Users\Eduardo Lopez\Documents\GitHub\desafio1_DMD_EduardoLopez\Fiorella_Data_Excel\Ventas_Nacional.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
   <DTS:Variables>
     <DTS:Variable
@@ -504,7 +523,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{A8B4EE54-B87F-45D5-86FE-1D29369AC838}"
-          SQLTask:SqlStatementSource="USE Fiorella;&#xA;&#xA;IF OBJECT_ID('Combinaciones_Productos_Departamento', 'U') IS NULL&#xA;BEGIN&#xA;    CREATE TABLE Combinaciones_Productos_Departamento (&#xA;        Departamento NVARCHAR(255),&#xA;        Producto1 NVARCHAR(255),&#xA;        Producto2 NVARCHAR(255),&#xA;        CantidadCompras INT&#xA;    );&#xA;    PRINT 'Table Combinaciones_Productos_Departamento created.';&#xA;END&#xA;ELSE&#xA;BEGIN&#xA;    PRINT 'Table Combinaciones_Productos_Departamento already exists.';&#xA;END&#xA;&#xA;-- Create Combinaciones_Productos_Pais if it doesn't exist&#xA;IF OBJECT_ID('Combinaciones_Productos_Pais', 'U') IS NULL&#xA;BEGIN&#xA;    CREATE TABLE Combinaciones_Productos_Pais (&#xA;        Producto1 NVARCHAR(255),&#xA;        Producto2 NVARCHAR(255),&#xA;        CantidadCompras INT&#xA;    );&#xA;    PRINT 'Table Combinaciones_Productos_Pais created.';&#xA;END&#xA;ELSE&#xA;BEGIN&#xA;    PRINT 'Table Combinaciones_Productos_Pais already exists.';&#xA;END&#xA;&#xA;TRUNCATE TABLE Combinaciones_Productos_Departamento;&#xA;WITH ProductosComprados AS (&#xA;    SELECT Departamento, 'Rosas' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE RosasInt = 1&#xA;    UNION ALL&#xA;    SELECT Departamento, 'Claveles' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE ClavelesInt = 1&#xA;    UNION ALL&#xA;    SELECT Departamento, 'Macetas' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE MacetasInt = 1&#xA;    UNION ALL&#xA;    SELECT Departamento, 'Tierra' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE TierraInt = 1&#xA;    UNION ALL&#xA;    SELECT Departamento, 'Girasoles' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE GirasolesInt = 1&#xA;    UNION ALL&#xA;    SELECT Departamento, 'Hortensia' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE HortensiaInt = 1&#xA;    UNION ALL&#xA;    SELECT Departamento, 'Globos' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE GlobosInt = 1&#xA;    UNION ALL&#xA;    SELECT Departamento, 'Tarjetas' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE TarjetasInt = 1&#xA;    UNION ALL&#xA;    SELECT Departamento, 'Orquideas' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE OrquideasInt = 1&#xA;    UNION ALL&#xA;    SELECT Departamento, 'Carmesi' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE CarmesiInt = 1&#xA;    UNION ALL&#xA;    SELECT Departamento, 'Lirios' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE LiriosInt = 1&#xA;    UNION ALL&#xA;    SELECT Departamento, 'Aurora' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE AuroraInt = 1&#xA;    UNION ALL&#xA;    SELECT Departamento, 'Tulipanes' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE TulipanesInt = 1&#xA;    UNION ALL&#xA;    SELECT Departamento, 'Liston' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE ListonInt = 1&#xA;)&#xA;&#xA;INSERT INTO Combinaciones_Productos_Departamento (Departamento, Producto1, Producto2, CantidadCompras)&#xA;SELECT P1.Departamento, P1.Producto AS Producto1, P2.Producto AS Producto2, COUNT(*) AS CantidadCompras&#xA;FROM ProductosComprados P1&#xA;INNER JOIN ProductosComprados P2&#xA;    ON P1.id = P2.id  &#xA;    AND P1.Producto &lt; P2.Producto  &#xA;GROUP BY P1.Departamento, P1.Producto, P2.Producto&#xA;ORDER BY CantidadCompras DESC;&#xA;&#xA;TRUNCATE TABLE Combinaciones_Productos_Pais;&#xA;WITH ProductosComprados AS (&#xA;    SELECT 'Rosas' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE RosasInt = 1&#xA;    UNION ALL&#xA;    SELECT 'Claveles' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE ClavelesInt = 1&#xA;    UNION ALL&#xA;    SELECT 'Macetas' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE MacetasInt = 1&#xA;    UNION ALL&#xA;    SELECT 'Tierra' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE TierraInt = 1&#xA;    UNION ALL&#xA;    SELECT 'Girasoles' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE GirasolesInt = 1&#xA;    UNION ALL&#xA;    SELECT 'Hortensia' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE HortensiaInt = 1&#xA;    UNION ALL&#xA;    SELECT 'Globos' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE GlobosInt = 1&#xA;    UNION ALL&#xA;    SELECT 'Tarjetas' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE TarjetasInt = 1&#xA;    UNION ALL&#xA;    SELECT 'Orquideas' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE OrquideasInt = 1&#xA;    UNION ALL&#xA;    SELECT 'Carmesi' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE CarmesiInt = 1&#xA;    UNION ALL&#xA;    SELECT 'Lirios' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE LiriosInt = 1&#xA;    UNION ALL&#xA;    SELECT 'Aurora' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE AuroraInt = 1&#xA;    UNION ALL&#xA;    SELECT 'Tulipanes' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE TulipanesInt = 1&#xA;    UNION ALL&#xA;    SELECT 'Liston' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE ListonInt = 1&#xA;)&#xA;&#xA;INSERT INTO Combinaciones_Productos_Pais (Producto1, Producto2, CantidadCompras)&#xA;SELECT P1.Producto AS Producto1, P2.Producto AS Producto2, COUNT(*) AS CantidadCompras&#xA;FROM ProductosComprados P1&#xA;INNER JOIN ProductosComprados P2&#xA;    ON P1.id = P2.id  &#xA;    AND P1.Producto &lt; P2.Producto  &#xA;GROUP BY P1.Producto, P2.Producto&#xA;ORDER BY CantidadCompras DESC;&#xA;&#xA;&#xA;&#xA;&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="USE Fiorella;&#xA;&#xA;TRUNCATE TABLE Combinaciones_Productos_Departamento;&#xA;WITH ProductosComprados AS (&#xA;    SELECT Departamento, 'Rosas' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE RosasInt = 1&#xA;    UNION ALL&#xA;    SELECT Departamento, 'Claveles' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE ClavelesInt = 1&#xA;    UNION ALL&#xA;    SELECT Departamento, 'Macetas' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE MacetasInt = 1&#xA;    UNION ALL&#xA;    SELECT Departamento, 'Tierra' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE TierraInt = 1&#xA;    UNION ALL&#xA;    SELECT Departamento, 'Girasoles' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE GirasolesInt = 1&#xA;    UNION ALL&#xA;    SELECT Departamento, 'Hortensia' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE HortensiaInt = 1&#xA;    UNION ALL&#xA;    SELECT Departamento, 'Globos' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE GlobosInt = 1&#xA;    UNION ALL&#xA;    SELECT Departamento, 'Tarjetas' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE TarjetasInt = 1&#xA;    UNION ALL&#xA;    SELECT Departamento, 'Orquideas' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE OrquideasInt = 1&#xA;    UNION ALL&#xA;    SELECT Departamento, 'Carmesi' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE CarmesiInt = 1&#xA;    UNION ALL&#xA;    SELECT Departamento, 'Lirios' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE LiriosInt = 1&#xA;    UNION ALL&#xA;    SELECT Departamento, 'Aurora' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE AuroraInt = 1&#xA;    UNION ALL&#xA;    SELECT Departamento, 'Tulipanes' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE TulipanesInt = 1&#xA;    UNION ALL&#xA;    SELECT Departamento, 'Liston' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE ListonInt = 1&#xA;)&#xA;&#xA;INSERT INTO Combinaciones_Productos_Departamento (Departamento, Producto1, Producto2, CantidadCompras)&#xA;SELECT P1.Departamento, P1.Producto AS Producto1, P2.Producto AS Producto2, COUNT(*) AS CantidadCompras&#xA;FROM ProductosComprados P1&#xA;INNER JOIN ProductosComprados P2&#xA;    ON P1.id = P2.id  &#xA;    AND P1.Producto &lt; P2.Producto  &#xA;GROUP BY P1.Departamento, P1.Producto, P2.Producto&#xA;ORDER BY CantidadCompras DESC;&#xA;&#xA;TRUNCATE TABLE Combinaciones_Productos_Pais;&#xA;WITH ProductosComprados AS (&#xA;    SELECT 'Rosas' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE RosasInt = 1&#xA;    UNION ALL&#xA;    SELECT 'Claveles' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE ClavelesInt = 1&#xA;    UNION ALL&#xA;    SELECT 'Macetas' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE MacetasInt = 1&#xA;    UNION ALL&#xA;    SELECT 'Tierra' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE TierraInt = 1&#xA;    UNION ALL&#xA;    SELECT 'Girasoles' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE GirasolesInt = 1&#xA;    UNION ALL&#xA;    SELECT 'Hortensia' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE HortensiaInt = 1&#xA;    UNION ALL&#xA;    SELECT 'Globos' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE GlobosInt = 1&#xA;    UNION ALL&#xA;    SELECT 'Tarjetas' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE TarjetasInt = 1&#xA;    UNION ALL&#xA;    SELECT 'Orquideas' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE OrquideasInt = 1&#xA;    UNION ALL&#xA;    SELECT 'Carmesi' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE CarmesiInt = 1&#xA;    UNION ALL&#xA;    SELECT 'Lirios' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE LiriosInt = 1&#xA;    UNION ALL&#xA;    SELECT 'Aurora' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE AuroraInt = 1&#xA;    UNION ALL&#xA;    SELECT 'Tulipanes' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE TulipanesInt = 1&#xA;    UNION ALL&#xA;    SELECT 'Liston' AS Producto, id&#xA;    FROM [Fiorella].[dbo].[VentasFiorella] WHERE ListonInt = 1&#xA;)&#xA;&#xA;INSERT INTO Combinaciones_Productos_Pais (Producto1, Producto2, CantidadCompras)&#xA;SELECT P1.Producto AS Producto1, P2.Producto AS Producto2, COUNT(*) AS CantidadCompras&#xA;FROM ProductosComprados P1&#xA;INNER JOIN ProductosComprados P2&#xA;    ON P1.id = P2.id  &#xA;    AND P1.Producto &lt; P2.Producto  &#xA;GROUP BY P1.Producto, P2.Producto&#xA;ORDER BY CantidadCompras DESC;&#xA;&#xA;&#xA;&#xA;&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
@@ -2906,250 +2925,6 @@
               </outputs>
             </component>
             <component
-              refId="Package\Procesar datos\Destino de ADO NET"
-              componentClassID="Microsoft.ManagedComponentHost"
-              contactInfo="Carga datos en una base de datos compatible con ADO.NET que use una vista o tabla de base de datos. Se cargan datos en una tabla nueva o existente. Por ejemplo, se usa un proveedor ADO.NET para ODBC para cargar datos en un destino ODBC.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;2"
-              description="Carga datos en una base de datos compatible con ADO.NET que use una vista o tabla de base de datos. Se cargan datos en una tabla nueva o existente. Por ejemplo, se usa un proveedor ADO.NET para ODBC para cargar datos en un destino ODBC."
-              name="Destino de ADO NET"
-              usesDispositions="true"
-              version="2">
-              <properties>
-                <property
-                  dataType="System.String"
-                  description="Nombre de la tabla de la base de datos de destino."
-                  expressionType="Notify"
-                  name="TableOrViewName"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">[dbo].[VentasFiorella]</property>
-                <property
-                  dataType="System.Int32"
-                  description="Especifique el número de filas por lote. El valor predeterminado es 0, que utiliza el mismo tamaño que el búfer interno de SSIS. "
-                  expressionType="Notify"
-                  name="BatchSize">0</property>
-                <property
-                  dataType="System.Int32"
-                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito. "
-                  expressionType="Notify"
-                  name="CommandTimeout">30</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Especifica si se debe usar la interfaz SqlBulkCopy para mejorar el rendimiento de las operaciones de inserción masiva. No todos los proveedores admiten esta interfaz."
-                  expressionType="Notify"
-                  name="UseBulkInsertWhenPossible">true</property>
-                <property
-                  dataType="System.String"
-                  name="UserComponentTypeName">Microsoft.ADONETDestination</property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Procesar datos\Destino de ADO NET.Connections[IDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[localhost.Fiorella]"
-                  connectionManagerRefId="Package.ConnectionManagers[localhost.Fiorella]"
-                  description="Administrador de conexiones administrado"
-                  name="IDbConnection" />
-              </connections>
-              <inputs>
-                <input
-                  refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET]"
-                  errorRowDisposition="FailComponent"
-                  hasSideEffects="true"
-                  name="Entrada de destino de ADO NET">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[id]"
-                      cachedDataType="wstr"
-                      cachedLength="50"
-                      cachedName="id"
-                      externalMetadataColumnId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[id]"
-                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[id]" />
-                    <inputColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[RosasInt]"
-                      cachedDataType="i4"
-                      cachedName="RosasInt"
-                      externalMetadataColumnId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[RosasInt]"
-                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[RosasInt]" />
-                    <inputColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[ClavelesInt]"
-                      cachedDataType="i4"
-                      cachedName="ClavelesInt"
-                      externalMetadataColumnId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[ClavelesInt]"
-                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[ClavelesInt]" />
-                    <inputColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[MacetasInt]"
-                      cachedDataType="i4"
-                      cachedName="MacetasInt"
-                      externalMetadataColumnId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[MacetasInt]"
-                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[MacetasInt]" />
-                    <inputColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[TierraInt]"
-                      cachedDataType="i4"
-                      cachedName="TierraInt"
-                      externalMetadataColumnId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[TierraInt]"
-                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[TierraInt]" />
-                    <inputColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[GirasolesInt]"
-                      cachedDataType="i4"
-                      cachedName="GirasolesInt"
-                      externalMetadataColumnId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[GirasolesInt]"
-                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[GirasolesInt]" />
-                    <inputColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[HortensiaInt]"
-                      cachedDataType="i4"
-                      cachedName="HortensiaInt"
-                      externalMetadataColumnId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[HortensiaInt]"
-                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[HortensiaInt]" />
-                    <inputColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[GlobosInt]"
-                      cachedDataType="i4"
-                      cachedName="GlobosInt"
-                      externalMetadataColumnId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[GlobosInt]"
-                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[GlobosInt]" />
-                    <inputColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[TarjetasInt]"
-                      cachedDataType="i4"
-                      cachedName="TarjetasInt"
-                      externalMetadataColumnId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[TarjetasInt]"
-                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[TarjetasInt]" />
-                    <inputColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[LiriosInt]"
-                      cachedDataType="i4"
-                      cachedName="LiriosInt"
-                      externalMetadataColumnId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[LiriosInt]"
-                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[LiriosInt]" />
-                    <inputColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[AuroraInt]"
-                      cachedDataType="i4"
-                      cachedName="AuroraInt"
-                      externalMetadataColumnId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[AuroraInt]"
-                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[AuroraInt]" />
-                    <inputColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[TulipanesInt]"
-                      cachedDataType="i4"
-                      cachedName="TulipanesInt"
-                      externalMetadataColumnId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[TulipanesInt]"
-                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[TulipanesInt]" />
-                    <inputColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[OrquideasInt]"
-                      cachedDataType="i4"
-                      cachedName="OrquideasInt"
-                      externalMetadataColumnId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[OrquideasInt]"
-                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[OrquideasInt]" />
-                    <inputColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[CarmesiInt]"
-                      cachedDataType="i4"
-                      cachedName="CarmesiInt"
-                      externalMetadataColumnId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[CarmesiInt]"
-                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[CarmesiInt]" />
-                    <inputColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[ListonInt]"
-                      cachedDataType="i4"
-                      cachedName="ListonInt"
-                      externalMetadataColumnId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[ListonInt]"
-                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[ListonInt]" />
-                    <inputColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].Columns[Departamento]"
-                      cachedDataType="wstr"
-                      cachedLength="12"
-                      cachedName="Departamento"
-                      externalMetadataColumnId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[Departamento]"
-                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[Departamento]" />
-                  </inputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[id]"
-                      dataType="wstr"
-                      length="50"
-                      name="id" />
-                    <externalMetadataColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[RosasInt]"
-                      dataType="i4"
-                      name="RosasInt" />
-                    <externalMetadataColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[ClavelesInt]"
-                      dataType="i4"
-                      name="ClavelesInt" />
-                    <externalMetadataColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[MacetasInt]"
-                      dataType="i4"
-                      name="MacetasInt" />
-                    <externalMetadataColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[TierraInt]"
-                      dataType="i4"
-                      name="TierraInt" />
-                    <externalMetadataColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[GirasolesInt]"
-                      dataType="i4"
-                      name="GirasolesInt" />
-                    <externalMetadataColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[HortensiaInt]"
-                      dataType="i4"
-                      name="HortensiaInt" />
-                    <externalMetadataColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[GlobosInt]"
-                      dataType="i4"
-                      name="GlobosInt" />
-                    <externalMetadataColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[TarjetasInt]"
-                      dataType="i4"
-                      name="TarjetasInt" />
-                    <externalMetadataColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[LiriosInt]"
-                      dataType="i4"
-                      name="LiriosInt" />
-                    <externalMetadataColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[AuroraInt]"
-                      dataType="i4"
-                      name="AuroraInt" />
-                    <externalMetadataColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[TulipanesInt]"
-                      dataType="i4"
-                      name="TulipanesInt" />
-                    <externalMetadataColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[OrquideasInt]"
-                      dataType="i4"
-                      name="OrquideasInt" />
-                    <externalMetadataColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[CarmesiInt]"
-                      dataType="i4"
-                      name="CarmesiInt" />
-                    <externalMetadataColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[ListonInt]"
-                      dataType="i4"
-                      name="ListonInt" />
-                    <externalMetadataColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET].ExternalColumns[Departamento]"
-                      dataType="wstr"
-                      length="12"
-                      name="Departamento" />
-                  </externalMetadataColumns>
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Procesar datos\Destino de ADO NET.Outputs[Salida de error de destino de ADO NET]"
-                  exclusionGroup="1"
-                  isErrorOut="true"
-                  name="Salida de error de destino de ADO NET"
-                  synchronousInputId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Procesar datos\Destino de ADO NET.Outputs[Salida de error de destino de ADO NET].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Procesar datos\Destino de ADO NET.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Procesar datos\Destino de ADO NET.Outputs[Salida de error de destino de ADO NET].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
               refId="Package\Procesar datos\Multicast"
               componentClassID="Microsoft.Multicast"
               contactInfo="Multicast;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
@@ -3178,18 +2953,285 @@
                   <externalMetadataColumns />
                 </output>
                 <output
+                  refId="Package\Procesar datos\Multicast.Outputs[Multicast Output 3]"
+                  deleteOutputOnPathDetached="true"
+                  name="Multicast Output 3"
+                  synchronousInputId="Package\Procesar datos\Multicast.Inputs[Multicast Input 1]">
+                  <externalMetadataColumns />
+                </output>
+                <output
                   refId="Package\Procesar datos\Multicast.Outputs[Multicast Output 4]"
+                  dangling="true"
                   deleteOutputOnPathDetached="true"
                   name="Multicast Output 4"
                   synchronousInputId="Package\Procesar datos\Multicast.Inputs[Multicast Input 1]">
                   <externalMetadataColumns />
                 </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Procesar datos\OLE DB Destination"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="OLE DB Destination"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[VentasFiorella]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Procesar datos\OLE DB Destination.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[.,11433.Fiorella.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[.,11433.Fiorella.sa]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[id]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="id"
+                      externalMetadataColumnId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[id]"
+                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[id]" />
+                    <inputColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[RosasInt]"
+                      cachedDataType="i4"
+                      cachedName="RosasInt"
+                      externalMetadataColumnId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[RosasInt]"
+                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[RosasInt]" />
+                    <inputColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[ClavelesInt]"
+                      cachedDataType="i4"
+                      cachedName="ClavelesInt"
+                      externalMetadataColumnId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ClavelesInt]"
+                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[ClavelesInt]" />
+                    <inputColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[MacetasInt]"
+                      cachedDataType="i4"
+                      cachedName="MacetasInt"
+                      externalMetadataColumnId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[MacetasInt]"
+                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[MacetasInt]" />
+                    <inputColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[TierraInt]"
+                      cachedDataType="i4"
+                      cachedName="TierraInt"
+                      externalMetadataColumnId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TierraInt]"
+                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[TierraInt]" />
+                    <inputColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[GirasolesInt]"
+                      cachedDataType="i4"
+                      cachedName="GirasolesInt"
+                      externalMetadataColumnId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[GirasolesInt]"
+                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[GirasolesInt]" />
+                    <inputColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[HortensiaInt]"
+                      cachedDataType="i4"
+                      cachedName="HortensiaInt"
+                      externalMetadataColumnId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[HortensiaInt]"
+                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[HortensiaInt]" />
+                    <inputColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[GlobosInt]"
+                      cachedDataType="i4"
+                      cachedName="GlobosInt"
+                      externalMetadataColumnId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[GlobosInt]"
+                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[GlobosInt]" />
+                    <inputColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[TarjetasInt]"
+                      cachedDataType="i4"
+                      cachedName="TarjetasInt"
+                      externalMetadataColumnId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TarjetasInt]"
+                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[TarjetasInt]" />
+                    <inputColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[LiriosInt]"
+                      cachedDataType="i4"
+                      cachedName="LiriosInt"
+                      externalMetadataColumnId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LiriosInt]"
+                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[LiriosInt]" />
+                    <inputColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[AuroraInt]"
+                      cachedDataType="i4"
+                      cachedName="AuroraInt"
+                      externalMetadataColumnId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[AuroraInt]"
+                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[AuroraInt]" />
+                    <inputColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[TulipanesInt]"
+                      cachedDataType="i4"
+                      cachedName="TulipanesInt"
+                      externalMetadataColumnId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TulipanesInt]"
+                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[TulipanesInt]" />
+                    <inputColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[OrquideasInt]"
+                      cachedDataType="i4"
+                      cachedName="OrquideasInt"
+                      externalMetadataColumnId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[OrquideasInt]"
+                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[OrquideasInt]" />
+                    <inputColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[CarmesiInt]"
+                      cachedDataType="i4"
+                      cachedName="CarmesiInt"
+                      externalMetadataColumnId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CarmesiInt]"
+                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[CarmesiInt]" />
+                    <inputColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[ListonInt]"
+                      cachedDataType="i4"
+                      cachedName="ListonInt"
+                      externalMetadataColumnId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ListonInt]"
+                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[ListonInt]" />
+                    <inputColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Departamento]"
+                      cachedDataType="wstr"
+                      cachedLength="12"
+                      cachedName="Departamento"
+                      externalMetadataColumnId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Departamento]"
+                      lineageId="Package\Procesar datos\Union All.Outputs[Union All Output 1].Columns[Departamento]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[id]"
+                      dataType="wstr"
+                      length="50"
+                      name="id" />
+                    <externalMetadataColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[RosasInt]"
+                      dataType="i4"
+                      name="RosasInt" />
+                    <externalMetadataColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ClavelesInt]"
+                      dataType="i4"
+                      name="ClavelesInt" />
+                    <externalMetadataColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[MacetasInt]"
+                      dataType="i4"
+                      name="MacetasInt" />
+                    <externalMetadataColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TierraInt]"
+                      dataType="i4"
+                      name="TierraInt" />
+                    <externalMetadataColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[GirasolesInt]"
+                      dataType="i4"
+                      name="GirasolesInt" />
+                    <externalMetadataColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[HortensiaInt]"
+                      dataType="i4"
+                      name="HortensiaInt" />
+                    <externalMetadataColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[GlobosInt]"
+                      dataType="i4"
+                      name="GlobosInt" />
+                    <externalMetadataColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TarjetasInt]"
+                      dataType="i4"
+                      name="TarjetasInt" />
+                    <externalMetadataColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[LiriosInt]"
+                      dataType="i4"
+                      name="LiriosInt" />
+                    <externalMetadataColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[AuroraInt]"
+                      dataType="i4"
+                      name="AuroraInt" />
+                    <externalMetadataColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[TulipanesInt]"
+                      dataType="i4"
+                      name="TulipanesInt" />
+                    <externalMetadataColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[OrquideasInt]"
+                      dataType="i4"
+                      name="OrquideasInt" />
+                    <externalMetadataColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[CarmesiInt]"
+                      dataType="i4"
+                      name="CarmesiInt" />
+                    <externalMetadataColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ListonInt]"
+                      dataType="i4"
+                      name="ListonInt" />
+                    <externalMetadataColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Departamento]"
+                      dataType="wstr"
+                      length="12"
+                      name="Departamento" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
                 <output
-                  refId="Package\Procesar datos\Multicast.Outputs[Multicast Output 3]"
-                  dangling="true"
-                  deleteOutputOnPathDetached="true"
-                  name="Multicast Output 3"
-                  synchronousInputId="Package\Procesar datos\Multicast.Inputs[Multicast Input 1]">
+                  refId="Package\Procesar datos\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Procesar datos\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Procesar datos\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Procesar datos\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
                   <externalMetadataColumns />
                 </output>
               </outputs>
@@ -3244,8 +3286,8 @@
               <connections>
                 <connection
                   refId="Package\Procesar datos\Preferencias_Departamentales.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Administrador de conexiones con Excel]"
-                  connectionManagerRefId="Package.ConnectionManagers[Administrador de conexiones con Excel]"
+                  connectionManagerID="Package.ConnectionManagers[PreferenciasDepartamentalesExcelConnection]"
+                  connectionManagerRefId="Package.ConnectionManagers[PreferenciasDepartamentalesExcelConnection]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -3375,8 +3417,8 @@
               <connections>
                 <connection
                   refId="Package\Procesar datos\Preferencia_Nacional.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Administrador de conexiones con Excel 1]"
-                  connectionManagerRefId="Package.ConnectionManagers[Administrador de conexiones con Excel 1]"
+                  connectionManagerID="Package.ConnectionManagers[PreferenciaNacionalExcelConnection]"
+                  connectionManagerRefId="Package.ConnectionManagers[PreferenciaNacionalExcelConnection]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -6974,14 +7016,14 @@
           <paths>
             <path
               refId="Package\Procesar datos.Paths[Aggregate Output 1]"
-              endId="Package\Procesar datos\Unpivot.Inputs[Unpivot Input]"
-              name="Aggregate Output 1"
-              startId="Package\Procesar datos\Aggregate por departamento.Outputs[Aggregate Output 1]" />
-            <path
-              refId="Package\Procesar datos.Paths[Aggregate Output 11]"
               endId="Package\Procesar datos\Unpivot 1.Inputs[Unpivot Input]"
               name="Aggregate Output 1"
               startId="Package\Procesar datos\Aggregate a nivel nacional.Outputs[Aggregate Output 1]" />
+            <path
+              refId="Package\Procesar datos.Paths[Aggregate Output 11]"
+              endId="Package\Procesar datos\Unpivot.Inputs[Unpivot Input]"
+              name="Aggregate Output 1"
+              startId="Package\Procesar datos\Aggregate por departamento.Outputs[Aggregate Output 1]" />
             <path
               refId="Package\Procesar datos.Paths[Derived Column Output]"
               endId="Package\Procesar datos\Union All.Inputs[Union All Input 4]"
@@ -7023,10 +7065,10 @@
               name="Multicast Output 2"
               startId="Package\Procesar datos\Multicast.Outputs[Multicast Output 2]" />
             <path
-              refId="Package\Procesar datos.Paths[Multicast Output 4]"
-              endId="Package\Procesar datos\Destino de ADO NET.Inputs[Entrada de destino de ADO NET]"
-              name="Multicast Output 4"
-              startId="Package\Procesar datos\Multicast.Outputs[Multicast Output 4]" />
+              refId="Package\Procesar datos.Paths[Multicast Output 3]"
+              endId="Package\Procesar datos\OLE DB Destination.Inputs[OLE DB Destination Input]"
+              name="Multicast Output 3"
+              startId="Package\Procesar datos\Multicast.Outputs[Multicast Output 3]" />
             <path
               refId="Package\Procesar datos.Paths[Sort Output]"
               endId="Package\Procesar datos\Preferencias_Departamentales.Inputs[Excel Destination Input]"
@@ -7269,8 +7311,8 @@
               <connections>
                 <connection
                   refId="Package\Procesar operaciones SQL en Excel\Obtener ventas por departamento.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[.,11433.Fiorella.sa]"
-                  connectionManagerRefId="Package.ConnectionManagers[.,11433.Fiorella.sa]"
+                  connectionManagerID="Package.ConnectionManagers[.,11433.Fiorella.sa 1]"
+                  connectionManagerRefId="Package.ConnectionManagers[.,11433.Fiorella.sa 1]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -7437,8 +7479,8 @@
               <connections>
                 <connection
                   refId="Package\Procesar operaciones SQL en Excel\Ventas_Departamentales.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager]"
-                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager]"
+                  connectionManagerID="Package.ConnectionManagers[VentasDepartamentalesExcelConnection]"
+                  connectionManagerRefId="Package.ConnectionManagers[VentasDepartamentalesExcelConnection]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -7578,8 +7620,8 @@
               <connections>
                 <connection
                   refId="Package\Procesar operaciones SQL en Excel\Ventas_Nacional.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager 1]"
-                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager 1]"
+                  connectionManagerID="Package.ConnectionManagers[VentasNacionalExcelConnection]"
+                  connectionManagerRefId="Package.ConnectionManagers[VentasNacionalExcelConnection]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -7686,7 +7728,7 @@
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
       DTS:CreationName=""
-      DTS:DTSID="{E9FD438F-FFF7-4DBA-B43F-B9268EF723A6}"
+      DTS:DTSID="{10D6CC9B-6FAC-491C-A1B8-AFAEF6ABC10E}"
       DTS:From="Package\Obtener combos de productos mas vendidos"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 1"
@@ -7705,16 +7747,20 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="151,42"
-          Id="Package\Procesar datos"
-          TopLeft="602.5,86.5" />
-        <NodeLayout
           Size="246,53"
           Id="Package\Obtener combos de productos mas vendidos"
-          TopLeft="554.5,158.5" />
+          TopLeft="541.5,199.5" />
+        <NodeLayout
+          Size="151,42"
+          Id="Package\Procesar datos"
+          TopLeft="589.5,127.5" />
+        <NodeLayout
+          Size="262,44"
+          Id="Package\Procesar operaciones SQL en Excel"
+          TopLeft="540.5,294.5" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="677.75,128.5">
+          TopLeft="664.75,169.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -7734,24 +7780,20 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="262,44"
-          Id="Package\Procesar operaciones SQL en Excel"
-          TopLeft="549.5,241.5" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="679,211.5">
+          TopLeft="668,252.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,30"
+              EndConnector="0,42"
               Start="0,0"
-              End="0,22.5">
+              End="0,34.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,22.5" />
+                    End="0,34.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7769,53 +7811,49 @@
       <GraphLayout
         Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="151,42"
-          Id="Package\Procesar datos\San Miguel"
-          TopLeft="470.25,57" />
-        <NodeLayout
           Size="115,42"
           Id="Package\Procesar datos\Unpivot 1"
-          TopLeft="820.357142857143,411.25" />
-        <NodeLayout
-          Size="240,42"
-          Id="Package\Procesar datos\Preferencias_Departamentales"
-          TopLeft="432.288961038961,576.545454545454" />
-        <NodeLayout
-          Size="151,42"
-          Id="Package\Procesar datos\San Salvador"
-          TopLeft="651,57" />
-        <NodeLayout
-          Size="163,42"
-          Id="Package\Procesar datos\Derived Column 2"
-          TopLeft="843,139.5" />
-        <NodeLayout
-          Size="120,42"
-          Id="Package\Procesar datos\Multicast"
-          TopLeft="668.357142857143,279.5" />
+          TopLeft="817.857142857143,421.25" />
         <NodeLayout
           Size="151,42"
           Id="Package\Procesar datos\Santa Ana"
           TopLeft="853.5,61" />
         <NodeLayout
-          Size="206,42"
-          Id="Package\Procesar datos\Aggregate por departamento"
-          TopLeft="507.857142857143,349" />
+          Size="163,42"
+          Id="Package\Procesar datos\Derived Column 2"
+          TopLeft="843,139.5" />
         <NodeLayout
-          Size="176,42"
-          Id="Package\Procesar datos\Destino de ADO NET"
-          TopLeft="891.607142857143,257.75" />
+          Size="171,42"
+          Id="Package\Procesar datos\OLE DB Destination"
+          TopLeft="975.277777777778,260.944444444444" />
         <NodeLayout
           Size="121,42"
           Id="Package\Procesar datos\Union All"
           TopLeft="675.357142857143,208.5" />
         <NodeLayout
+          Size="98,42"
+          Id="Package\Procesar datos\Sort 1"
+          TopLeft="829.357142857143,491.75" />
+        <NodeLayout
           Size="210,42"
           Id="Package\Procesar datos\Preferencia_Nacional"
-          TopLeft="805.857142857143,573" />
+          TopLeft="803.357142857143,583" />
+        <NodeLayout
+          Size="206,42"
+          Id="Package\Procesar datos\Aggregate por departamento"
+          TopLeft="507.857142857143,349" />
+        <NodeLayout
+          Size="120,42"
+          Id="Package\Procesar datos\Multicast"
+          TopLeft="669.357142857143,278.5" />
         <NodeLayout
           Size="115,42"
           Id="Package\Procesar datos\Unpivot"
-          TopLeft="560.107142857143,413.25" />
+          TopLeft="560.107142857143,422.416666666667" />
+        <NodeLayout
+          Size="240,42"
+          Id="Package\Procesar datos\Preferencias_Departamentales"
+          TopLeft="432.288961038961,585.712121212121" />
         <NodeLayout
           Size="154,42"
           Id="Package\Procesar datos\Derived Column 1"
@@ -7826,19 +7864,23 @@
           TopLeft="474.25,140" />
         <NodeLayout
           Size="98,42"
-          Id="Package\Procesar datos\Sort 1"
-          TopLeft="831.857142857143,481.75" />
+          Id="Package\Procesar datos\Sort"
+          TopLeft="567.107142857143,503.416666666667" />
+        <NodeLayout
+          Size="151,42"
+          Id="Package\Procesar datos\San Miguel"
+          TopLeft="470.25,57" />
         <NodeLayout
           Size="203,42"
           Id="Package\Procesar datos\Aggregate a nivel nacional"
           TopLeft="774.357142857143,346.5" />
         <NodeLayout
-          Size="98,42"
-          Id="Package\Procesar datos\Sort"
-          TopLeft="567.107142857143,494.25" />
+          Size="151,42"
+          Id="Package\Procesar datos\San Salvador"
+          TopLeft="651,57" />
         <EdgeLayout
           Id="Package\Procesar datos.Paths[Unpivot Output1]"
-          TopLeft="879.357142857143,453.25">
+          TopLeft="876.857142857143,463.25">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -7860,7 +7902,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Procesar datos.Paths[Unpivot Output]"
-          TopLeft="616.857142857143,455.25">
+          TopLeft="616.857142857143,464.416666666667">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -7882,18 +7924,18 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Procesar datos.Paths[Union All Output 1]"
-          TopLeft="732.107142857143,250.5">
+          TopLeft="732.607142857143,250.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,29"
+              EndConnector="0,28"
               Start="0,0"
-              End="0,21.5">
+              End="0,20.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,21.5" />
+                    End="0,20.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -7904,7 +7946,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Procesar datos.Paths[Sort Output1]"
-          TopLeft="880.857142857143,523.75">
+          TopLeft="878.357142857143,533.75">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -7938,7 +7980,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Procesar datos.Paths[Sort Output]"
-          TopLeft="616.107142857143,536.25">
+          TopLeft="616.107142857143,545.416666666667">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -7971,65 +8013,31 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Procesar datos.Paths[Multicast Output 4]"
-          TopLeft="788.357142857143,300.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="103.25,-21.75"
-              Start="0,0"
-              End="95.7499999999999,-21.75">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="47.6249999999999,0" />
-                  <mssgle:CubicBezierSegment
-                    Point1="47.6249999999999,0"
-                    Point2="51.6249999999999,0"
-                    Point3="51.6249999999999,-4" />
-                  <mssgle:LineSegment
-                    End="51.6249999999999,-17.75" />
-                  <mssgle:CubicBezierSegment
-                    Point1="51.6249999999999,-17.75"
-                    Point2="51.6249999999999,-21.75"
-                    Point3="55.6249999999999,-21.75" />
-                  <mssgle:LineSegment
-                    End="95.7499999999999,-21.75" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
           Id="Package\Procesar datos.Paths[Multicast Output 2]"
-          TopLeft="709.690476190476,321.5">
+          TopLeft="710.690476190476,320.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-98.8333333333333,27.5"
+              EndConnector="-99.8333333333334,28.5"
               Start="0,0"
-              End="-98.8333333333333,20">
+              End="-99.8333333333334,21">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,7.2171052631579" />
+                    End="0,7.62500000000001" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,7.2171052631579"
-                    Point2="0,11.2171052631579"
-                    Point3="-4,11.2171052631579" />
+                    Point1="0,7.62500000000001"
+                    Point2="0,11.625"
+                    Point3="-4,11.625" />
                   <mssgle:LineSegment
-                    End="-94.8333333333333,11.2171052631579" />
+                    End="-95.8333333333334,11.625" />
                   <mssgle:CubicBezierSegment
-                    Point1="-94.8333333333333,11.2171052631579"
-                    Point2="-98.8333333333333,11.2171052631579"
-                    Point3="-98.8333333333333,15.2171052631579" />
+                    Point1="-95.8333333333334,11.625"
+                    Point2="-99.8333333333334,11.625"
+                    Point3="-99.8333333333334,15.625" />
                   <mssgle:LineSegment
-                    End="-98.8333333333333,20" />
+                    End="-99.8333333333334,21" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -8040,30 +8048,30 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Procesar datos.Paths[Multicast Output 1]"
-          TopLeft="747.023809523809,321.5">
+          TopLeft="748.02380952381,320.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="128.833333333333,25"
+              EndConnector="127.833333333333,26"
               Start="0,0"
-              End="128.833333333333,17.5">
+              End="127.833333333333,18.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,6.19736842105264" />
+                    End="0,6.60526315789474" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,6.19736842105264"
-                    Point2="0,10.1973684210526"
-                    Point3="4,10.1973684210526" />
+                    Point1="0,6.60526315789474"
+                    Point2="0,10.6052631578947"
+                    Point3="4,10.6052631578947" />
                   <mssgle:LineSegment
-                    End="124.833333333333,10.1973684210526" />
+                    End="123.833333333333,10.6052631578947" />
                   <mssgle:CubicBezierSegment
-                    Point1="124.833333333333,10.1973684210526"
-                    Point2="128.833333333333,10.1973684210526"
-                    Point3="128.833333333333,14.1973684210526" />
+                    Point1="123.833333333333,10.6052631578947"
+                    Point2="127.833333333333,10.6052631578947"
+                    Point3="127.833333333333,14.6052631578947" />
                   <mssgle:LineSegment
-                    End="128.833333333333,17.5" />
+                    End="127.833333333333,18.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -8241,19 +8249,19 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Procesar datos.Paths[Aggregate Output 11]"
-          TopLeft="876.857142857143,388.5">
+          Id="Package\Procesar datos.Paths[Aggregate Output 1]"
+          TopLeft="875.607142857143,388.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,22.75"
+              EndConnector="0,32.75"
               Start="0,0"
-              End="0,15.25">
+              End="0,25.25">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,15.25" />
+                    End="0,25.25" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -8263,25 +8271,53 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Procesar datos.Paths[Aggregate Output 1]"
-          TopLeft="610.857142857143,391">
+          Id="Package\Procesar datos.Paths[Aggregate Output 11]"
+          TopLeft="614.232142857143,391">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="64.25,43.2500000000001"
+              EndConnector="0,31.4166666666667"
               Start="0,0"
-              End="56.75,43.2500000000001">
+              End="0,23.9166666666667">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,39.2500000000001" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,39.2500000000001"
-                    Point2="0,43.2500000000001"
-                    Point3="4,43.2500000000001" />
+                    End="0,23.9166666666667" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Procesar datos.Paths[Multicast Output 3]"
+          TopLeft="789.357142857143,299.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="185.920634920635,-17.5555555555555"
+              Start="0,0"
+              End="178.420634920635,-17.5555555555555">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
                   <mssgle:LineSegment
-                    End="56.75,43.2500000000001" />
+                    End="88.9603174603174,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="88.9603174603174,0"
+                    Point2="92.9603174603174,0"
+                    Point3="92.9603174603174,-4" />
+                  <mssgle:LineSegment
+                    End="92.9603174603174,-13.5555555555555" />
+                  <mssgle:CubicBezierSegment
+                    Point1="92.9603174603174,-13.5555555555555"
+                    Point2="92.9603174603174,-17.5555555555555"
+                    Point3="96.9603174603174,-17.5555555555555" />
+                  <mssgle:LineSegment
+                    End="178.420634920635,-17.5555555555555" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -8294,7 +8330,7 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Procesar datos\Preferencias_Departamentales">
+    design-time-name="Package\Procesar datos\OLE DB Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -8307,15 +8343,20 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Procesar datos\Destino de ADO NET">
+    design-time-name="Package\Procesar datos\Preferencia_Nacional">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
       </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Procesar datos\Preferencia_Nacional">
+    design-time-name="Package\Procesar datos\Preferencias_Departamentales">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -8333,6 +8374,10 @@
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="201,42"
+          Id="Package\Procesar operaciones SQL en Excel\Ventas_Nacional"
+          TopLeft="561,264" />
+        <NodeLayout
           Size="225,42"
           Id="Package\Procesar operaciones SQL en Excel\Obtener ventas por departamento"
           TopLeft="138.5,104.5" />
@@ -8340,6 +8385,10 @@
           Size="201,42"
           Id="Package\Procesar operaciones SQL en Excel\Ventas_Departamentales"
           TopLeft="146.5,267.5" />
+        <NodeLayout
+          Size="225,42"
+          Id="Package\Procesar operaciones SQL en Excel\Obtener ventas nacional"
+          TopLeft="556,101" />
         <EdgeLayout
           Id="Package\Procesar operaciones SQL en Excel.Paths[OLE DB Source Output]"
           TopLeft="249,146.5">
@@ -8362,17 +8411,9 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="225,42"
-          Id="Package\Procesar operaciones SQL en Excel\Obtener ventas nacional"
-          TopLeft="556,101" />
-        <NodeLayout
-          Size="201,42"
-          Id="Package\Procesar operaciones SQL en Excel\Ventas_Nacional"
-          TopLeft="564,264" />
         <EdgeLayout
           Id="Package\Procesar operaciones SQL en Excel.Paths[OLE DB Source Output1]"
-          TopLeft="666.5,143">
+          TopLeft="665,143">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -8395,6 +8436,19 @@
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Procesar operaciones SQL en Excel\Ventas_Nacional">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Procesar operaciones SQL en Excel\Obtener ventas por departamento">
     <Properties>
@@ -8423,19 +8477,6 @@
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Procesar operaciones SQL en Excel\Obtener ventas nacional">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Procesar operaciones SQL en Excel\Ventas_Nacional">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>

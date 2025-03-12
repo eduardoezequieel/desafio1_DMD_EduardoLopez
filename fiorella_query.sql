@@ -1,35 +1,5 @@
 USE Fiorella;
 
-IF OBJECT_ID('Combinaciones_Productos_Departamento', 'U') IS NULL
-BEGIN
-    CREATE TABLE Combinaciones_Productos_Departamento (
-        Departamento NVARCHAR(255),
-        Producto1 NVARCHAR(255),
-        Producto2 NVARCHAR(255),
-        CantidadCompras INT
-    );
-    PRINT 'Table Combinaciones_Productos_Departamento created.';
-END
-ELSE
-BEGIN
-    PRINT 'Table Combinaciones_Productos_Departamento already exists.';
-END
-
--- Create Combinaciones_Productos_Pais if it doesn't exist
-IF OBJECT_ID('Combinaciones_Productos_Pais', 'U') IS NULL
-BEGIN
-    CREATE TABLE Combinaciones_Productos_Pais (
-        Producto1 NVARCHAR(255),
-        Producto2 NVARCHAR(255),
-        CantidadCompras INT
-    );
-    PRINT 'Table Combinaciones_Productos_Pais created.';
-END
-ELSE
-BEGIN
-    PRINT 'Table Combinaciones_Productos_Pais already exists.';
-END
-
 TRUNCATE TABLE Combinaciones_Productos_Departamento;
 WITH ProductosComprados AS (
     SELECT Departamento, 'Rosas' AS Producto, id
